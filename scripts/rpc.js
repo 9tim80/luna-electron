@@ -9,15 +9,15 @@ function DiscordRPC(title) {
 
     let d;
 
-    if (title.includes('on GeForce NOW')) {
+    if (title.includes('on Amazon Luna')) {
         d = title;
     } else {
-        d = "Home on GeForce NOW";
+        d = "Home on Amazon Luna";
     };
 
     client.updatePresence({
         details: d,
-        state: `Not affiliated with NVIDIA`,
+        state: `Not affiliated with Amazon`,
         startTimestamp: Date.now(),
         largeImageKey: 'icon',
         instance: true,
