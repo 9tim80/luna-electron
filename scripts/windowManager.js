@@ -55,7 +55,7 @@ app.on('browser-window-created', async function (event, window) {
         }
     });
     window.on('page-title-updated', async function (event, title) {
-        toggleGameStreamingMode(title.includes('on GeForce NOW'));
+        toggleGameStreamingMode(title.includes('on Amazon Luna'));
     });
 });
 
