@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=GeForce NOW
+Comment=Stream games using the Amazon Luna service
+Comment[ro]=Joacă jocuri prin streaming folosind serviciul Amazon Luna
+Type=Application
+Exec=/opt/luna-electron/luna-electron
+Icon=luna
+StartupWMClass=luna
+Categories=Network;Game;
+Keywords=Game;Streaming;Amazon;Luna;
+Keywords[ro]=Game;Streaming;Joc;Transmisie;Transmisiune;Amazon;Luna;
