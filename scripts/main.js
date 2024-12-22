@@ -6,7 +6,7 @@ const path = require('path');
 const { DiscordRPC } = require('./rpc.js');
 const { switchFullscreenState } = require('./windowManager.js');
 
-var homePage = 'https://play.geforcenow.com';
+var homePage = 'https://luna.amazon.com/';
 var userAgent = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36';
 
 console.log('Using user agent: ' + userAgent);
@@ -27,7 +27,7 @@ app.commandLine.appendSwitch('enable-zero-copy');
 app.commandLine.appendSwitch('enable-gpu-memory-buffer-video-frames');
 
 // To identify a possible stable 'use-gl' switch implementation for our application, we utilize a config file that stores the number of crashes.
-// On Linux, the crash count is likely stored here: /home/[username]/.config/GeForce NOW/config.json.
+// On Linux, the crash count is likely stored here: /home/[username]/.config/luna-electron/config.json.
 // To reset the crash count, we can delete that file.
 
 // If the 'use-gl' switch with the 'angle' implementation crashes, the app will then use the 'egl' implementation.
@@ -67,7 +67,7 @@ async function createWindow() {
   });
 
   if (process.argv.includes('--direct-start')) {
-    mainWindow.loadURL('https://play.geforcenow.com/mall/#/streamer?launchSource=GeForceNOW&cmsId=' + process.argv[process.argv.indexOf('--direct-start') + 1]);
+    mainWindow.loadURL(https://luna.amazon.com/game/' + process.argv[process.argv.indexOf('--direct-start') + 1]);
   } else {
     mainWindow.loadURL(homePage);
   }
