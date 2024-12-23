@@ -66,11 +66,16 @@ async function createWindow() {
     },
   });
 
-  if (process.argv.includes('--direct-start')) {
+/*
+commented out
+leftover code from gfn-electron for direct start of a specific game
+if (process.argv.includes('--direct-start')) {
     mainWindow.loadURL(https://luna.amazon.com/game/' + process.argv[process.argv.indexOf('--direct-start') + 1]);
   } else {
     mainWindow.loadURL(homePage);
   }
+*/
+
 
   /*
   uncomment this to debug any errors with loading GFN landing page
