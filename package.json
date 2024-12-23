@@ -1,9 +1,9 @@
 {
-  "name": "geforcenow-electron",
-  "appId": "com.github.hmlendea.${name}",
-  "productName": "GeForce NOW",
+  "name": "luna-electron",
+  "appId": "com.github.9tim80.${name}",
+  "productName": "Amazon Luna",
   "version": "2.1.0",
-  "description": "A Linux desktop web app for GeForce NOW",
+  "description": "A Linux desktop web app for Amazon Luna",
   "main": "scripts/main.js",
   "scripts": {
     "start": "electron .",
@@ -20,15 +20,15 @@
       "artifactName": "${name}_${version}_linux.${ext}"
     },
     "extraFiles": [
-      "com.github.hmlendea.${name}.desktop"
+      "com.github.9tim80.${name}.desktop"
     ]
   },
-  "repository": "https://github.com/hmlendea/gfn-electron",
+  "repository": "https://github.com/9tim80/luna-electron",
   "keywords": [
     "Electron",
-    "gfn",
-    "geforcenow",
-    "geforce-now"
+    "luna",
+    "amazon",
+    "amazon-luna"
   ],
   "author": "Horațiu Mlendea <io.github.hmlendea.cnzq9@SimpleLogin.fr>",
   "license": "GPL-3.0",
